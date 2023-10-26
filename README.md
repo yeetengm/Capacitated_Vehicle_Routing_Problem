@@ -1,6 +1,8 @@
-# FYP_Test
+My Testing File for FYP  
 
-My testing file
+   dmmac1.py --Origin from ortools, just distance matrix
+
+
 dmmac1.py --Origin from ortools, just distance matrix
 dmmac2.py --changed number of vehicle to 2
 dmmac3.py --1st UUM distance matrix data with km (successful)
