@@ -2,6 +2,7 @@ from ortools.constraint_solver import routing_enums_pb2
 from ortools.constraint_solver import pywrapcp
 
 
+
 class MaxRouteDistanceConstraint:
     def __init__(self, routing, max_route_distance, transit_callback_index):
         self.routing = routing
