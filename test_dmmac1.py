@@ -1,3 +1,8 @@
+import os
+ 
+# Clearing the Screen
+os.system('clear')
+
 """Capacited Vehicles Routing Problem (CVRP)."""
 
 # [START import]
