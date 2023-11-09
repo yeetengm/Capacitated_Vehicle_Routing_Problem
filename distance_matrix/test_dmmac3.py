@@ -1,7 +1,3 @@
-import os
- 
-# Clearing the Screen
-os.system('clear')
 
 # [START import]
 from ortools.constraint_solver import routing_enums_pb2
@@ -72,12 +68,12 @@ def print_solution(data, manager, routing, solution):
                 previous_index, index, vehicle_id
             )
         plan_output += f" {manager.IndexToNode(index)} Load({route_load})\n"
-        plan_output += f"Distance of the route: {route_distance}m\n"
+        plan_output += f"Distance of the route: {route_distance}km\n"
         plan_output += f"Load of the route: {route_load}\n"
         print(plan_output)
         total_distance += route_distance
         total_load += route_load
-    print(f"Total distance of all routes: {total_distance}m")
+    print(f"Total distance of all routes: {total_distance}km")
     print(f"Total load of all routes: {total_load}")
     # [END solution_printer]
 
