@@ -1,4 +1,5 @@
 
+#Add minimum distance
 
 from ortools.constraint_solver import routing_enums_pb2
 from ortools.constraint_solver import pywrapcp
@@ -35,8 +36,8 @@ def create_data_model():
         # fmt: on
     ]
     data["demands"] = [0, 1, 1, 2, 4, 2, 4, 8, 8, 1, 2, 1, 2, 4, 4, 8, 8, 4, 4, 5, 8, 3, 5, 3]
-    data["vehicle_capacities"] = [30, 38 ,40]
-    data["num_vehicles"] = 3
+    data["vehicle_capacities"] = [20, 20 , 20, 20, 20]
+    data["num_vehicles"] = 5
     data["depot"] = 0
     return data
 
@@ -107,7 +108,7 @@ def main():
     routing.AddDimension(
         transit_callback_index,
         0,  # no slack
-        13000,  # vehicle maximum travel distance
+        14000,  # vehicle maximum travel distance
         True,  # start cumul to zero
         dimension_name,
     )
