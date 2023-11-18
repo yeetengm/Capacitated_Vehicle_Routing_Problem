@@ -1,12 +1,3 @@
-# My Testing File for FYP  
-
-   1. test1.py -- Demo for MacOs in GitHub!
-   2. dmmac1.py --Origin from ortools, just distance matrix
-   3. dmmac2.py --changed number of vehicle to 2
-   4. dmmac3.py --1st UUM distance matrix data with km (successful)
-   5. dmmac4.py --Origin from GPT, just distance matrix
-   6. dmmac5.py --1st UUM distance matrix data with m (successful)
-
 # Three different set of data for CVRP
 
    1. Universiti Utara Malaysia (UUM)
