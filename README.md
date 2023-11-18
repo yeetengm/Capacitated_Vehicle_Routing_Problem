@@ -5,9 +5,10 @@ The dataset files can found it from `Location Distance Matrix`
    2. Kampung Hutan Balas, Kedah
    3. Pekan Jitra, Kedah
 
-# Result for CVRP in UUM
+# Sample Result for CVRP in UUM
 
-Objective: 1392050  
+**Objective: 1392050**  
+
 Route for vehicle 0:  
 0 Load(0) ->  9 Load(1) ->  10 Load(3) ->  16 Load(11) ->  20 Load(19) ->  0 Load(19)  
 Distance of the route: 13300m  
@@ -36,3 +37,41 @@ Load of the route: 16
 Total distance of all routes: 62050m  
 Total load of all routes: 89  
 Maximum of the route distances: 13300m
+
+# Sample Result for CVRP in Kampung Hutan Balas
+
+**Objective: 551356**  
+
+Route for vehicle 0:  
+0 Load(0) ->  2 Load(1) ->  3 Load(3) ->  24 Load(9) ->  22 Load(14) ->  19 Load(19) ->  0 Load(19)  
+Distance of the route: 5276m  
+Load of the route: 19
+
+Route for vehicle 1:  
+0 Load(0) ->  26 Load(8) ->  16 Load(16) ->  13 Load(20) ->  0 Load(20)  
+Distance of the route: 4540m  
+Load of the route: 20
+
+Route for vehicle 2:  
+0 Load(0) ->  14 Load(4) ->  15 Load(12) ->  17 Load(16) ->  18 Load(20) ->  0 Load(20)  
+Distance of the route: 4000m  
+Load of the route: 20
+
+Route for vehicle 3:  
+0 Load(0) ->  12 Load(2) ->  25 Load(9) ->  21 Load(12) ->  20 Load(20) ->  0 Load(20)  
+Distance of the route: 4900m  
+Load of the route: 20
+
+Route for vehicle 4:  
+0 Load(0) ->  23 Load(3) ->  8 Load(11) ->  9 Load(12) ->  7 Load(20) ->  0 Load(20)  
+Distance of the route: 1290m  
+Load of the route: 20
+
+Route for vehicle 5:  
+0 Load(0) ->  6 Load(4) ->  4 Load(8) ->  5 Load(10) ->  1 Load(11) ->  10 Load(13) ->  11 Load(14) ->  0 Load(14)  
+Distance of the route: 3750m  
+Load of the route: 14
+
+Total distance of all routes: 23756m  
+Total load of all routes: 113  
+Maximum of the route distances: 5276m
