@@ -1,4 +1,7 @@
 
+# Convert Excel data into Python List.
+# This file is for dataset `Kampung Hutan Balas`.
+
 import pandas as pd
 
 path = r"/Users/yeetengm/Library/CloudStorage/OneDrive-UNIVERSITYUTARAMALAYSIA/yeetengm's mac/SEM 7/Final Year Project/Location Distance Matrix/Kampung Hutan Balas (Python list).xlsx"
